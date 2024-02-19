@@ -1,13 +1,9 @@
 /*
+ * 使用limit.h和float中定义的明示常量
  *
+ * limit.h 整型限制
  *
- *
- *
- *
- *
- *
- *
- *
+ * float.h 浮点型限制
  */
 #include <stdio.h>
 #include <limits.h>
