@@ -19,5 +19,9 @@ int main(void)
     printf("Farewell! thou art too dear for my prossessing!\n");
     printf("%c%d.\n", '$', 2 * cost);
 
+    // 用%%来打印%
+    int pc = 2 * 6;
+    printf("Only %d%% of Sally's gribbles were edible.\n", pc);
+
     return 0;
 }
