@@ -14,5 +14,7 @@ int main(void)
     printf("*%10d*\n", PAGES);	// *       959*
     printf("*%-10d*\n", PAGES);	// *959       *
 
+    printf("*%010d*\n", PAGES);
+
     return 0;
 }
