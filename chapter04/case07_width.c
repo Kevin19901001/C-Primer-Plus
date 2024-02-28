@@ -16,8 +16,8 @@ int main(void)
 
     printf("*%010d*\n", PAGES);
     printf("*%#10d*\n", PAGES);
-	printf("*% 10d*\n", PAGES);
-	printf("*%+10d*\n", PAGES);
+    printf("*% 10d*\n", PAGES);
+    printf("*%+10d*\n", PAGES);
 
     return 0;
 }
