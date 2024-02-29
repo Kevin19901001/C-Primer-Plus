@@ -1,9 +1,3 @@
-    printf("*%d*\n", PAGES);	// *959*
-    printf("*%2d*\n", PAGES);	// *959*
-    printf("*%10d*\n", PAGES);	// *       959*
-    printf("*%-10d*\n", PAGES);	// *959       *
-
-    printf("%\n", PAGES);
     printf("*%010d*\n", PAGES);
     printf("*%#10d*\n", PAGES);
     printf("*% 10d*\n", PAGES);
@@ -19,6 +13,9 @@
 	printf("%hhd\n", SIGNEDCHAR);
 	printf("%4hhu\n", SIGNEDCHAR);
 	printf("%3hhx\n", SIGNEDCHAR);
+	
+	// intmax_t
+	printf("%jd\n", intmax_t);
 
     return 0;
 }
