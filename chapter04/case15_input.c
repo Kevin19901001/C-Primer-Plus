@@ -17,6 +17,13 @@ int main(void)
         scanf("%s", pet);
 	printf("%d %f %s\n", age, assets, pet);
 
+	// 把输入解释成有符号十进制整数
+	int num1;
+	int num2;
+	printf("Please enter integer values:\n");
+	scanf("%d %i", &num1, &num2);
+	printf("num1:%d, num2:%i\n", num1, num2);
+
 	// %c 把输入解释成字符串
 	char chrval;
 	printf("Please enter a char value:\n");
