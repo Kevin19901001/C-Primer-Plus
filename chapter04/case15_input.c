@@ -15,7 +15,13 @@ int main(void)
         printf("Enter your age, assets and favorate pet:\n");
         scanf("%d %f", &age, &assets);
         scanf("%s", pet);
-        printf("%d %f %s\n", age, assets, pet);
+	printf("%d %f %s\n", age, assets, pet);
+
+	// %c 把输入解释成字符串
+	char chrval;
+	printf("Please enter a char value:\n");
+	scanf("%c", &chrval);
+	printf("The char value is %c\n", chrval);
 
         return 0;
 }
