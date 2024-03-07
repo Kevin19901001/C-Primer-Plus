@@ -28,9 +28,10 @@ int main(void)
         float fltvale;
         float fltvalf;
         float fltvalg;
-        float flrvala;
-        printf(“Please enter float values:\n”);
-        scanf(“%e %f %g %a”, &fltvale, &fltvalf, &fltvalg, &fltvala);
+        float fltvala;
+        printf("Please enter float values:\n");
+        scanf("%e %f %g %a", &fltvale, &fltvalf, &fltvalg, &fltvala);
+	printf("fltvale=%e, fltvalf=%f, fltvalg=%g, fltvala=%a\n", fltvale, fltvalf, fltvalg, fltvala);
 
 	// %c 把输入解释成字符串
 	char chrval;
@@ -40,3 +41,4 @@ int main(void)
 
 	return 0;
 }
+
