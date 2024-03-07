@@ -15,7 +15,7 @@ int main(void)
         printf("Enter your age, assets and favorate pet:\n");
         scanf("%d %f", &age, &assets);
         scanf("%s", pet);
-	printf("%d %f %s\n", age, assets, pet);
+        printf("%d %f %s\n", age, assets, pet);
 
 	// 把输入解释成有符号十进制整数
 	int num1;
@@ -23,6 +23,14 @@ int main(void)
 	printf("Please enter integer values:\n");
 	scanf("%d %i", &num1, &num2);
 	printf("num1:%d, num2:%i\n", num1, num2);
+
+    // %e、%f、%g、%a 把输入解释称浮点数
+    float fltvale;
+    float fltvalf;
+    float fltvalg;
+    float flrvala;
+    printf(“Please enter float values:\n”);
+    scanf(“%e %f %g %a”, &fltvale, &fltvalf, &fltvalg, &fltvala);
 
 	// %c 把输入解释成字符串
 	char chrval;
