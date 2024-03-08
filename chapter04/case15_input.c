@@ -33,6 +33,15 @@ int main(void)
         scanf("%e %f %g %a", &fltvale, &fltvalf, &fltvalg, &fltvala);
 	printf("fltvale=%e, fltvalf=%f, fltvalg=%g, fltvala=%a\n", fltvale, fltvalf, fltvalg, fltvala);
 
+        // %E %F %G %A 把输入解释成浮点数
+        float fltvalbe;
+        float fltvalbf;
+        float fltvalbg;
+        float fltvalba;
+        printf(“Please enter float values:\n);
+        scanf(“%E %F %G %A”, fltvalbe, fltvalbf, fltvalbg, fltvalba);
+        printf(“fltvalbe=%E, fltvalbf=%F, fltvalbg=%G, fltvalba=%A”, fltvalbe, fltvalbf, fltvalbg, fltvalba);
+
 	// %c 把输入解释成字符串
 	char chrval;
 	printf("Please enter a char value:\n");
