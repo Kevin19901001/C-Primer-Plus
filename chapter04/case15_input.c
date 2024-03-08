@@ -24,7 +24,7 @@ int main(void)
 	scanf("%d %i", &num1, &num2);
 	printf("num1:%d, num2:%i\n", num1, num2);
 
-        // %e、%f、%g、%a 把输入解释称浮点数
+        // %e、%f、%g、%a 把输入解释成浮点数
         float fltvale;
         float fltvalf;
         float fltvalg;
