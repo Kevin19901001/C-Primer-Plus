@@ -40,7 +40,7 @@ int main(void)
         float fltvalba;
         printf("Please enter float values:\n");
         scanf("%E %F %G %A", &fltvalbe, &fltvalbf, &fltvalbg, &fltvalba);
-        printf("fltvalbe=%E, fltvalbf=%F, fltvalbg=%G, fltvalba=%A", fltvalbe, fltvalbf, fltvalbg, fltvalba);
+        printf("fltvalbe=%E, fltvalbf=%F, fltvalbg=%G, fltvalba=%A\n", fltvalbe, fltvalbf, fltvalbg, fltvalba);
 
 	// %c 把输入解释成字符串
 	char chrval;
