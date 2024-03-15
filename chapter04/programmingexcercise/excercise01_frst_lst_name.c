@@ -12,7 +12,7 @@ int main(void)
 	char frst_name[40];
 	char lst_name[40];
 
-	printf("请输入您的名和姓：\n");
+	printf("Please enter your first name and last name:\n");
 	scanf("%s %s", frst_name, lst_name);
 	printf("%s,%s\n", frst_name, lst_name);
 
