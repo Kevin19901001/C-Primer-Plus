@@ -13,7 +13,7 @@ int main(void)
 
 	printf("Please enter a float value:\n");
 	scanf("%f", &a);
-	printf("The input is %.2f or %2.e.\n", a, a);
+	printf("The input is %2.1f or %1.1e.\n", a, a);
 
 	return 0;
 }
