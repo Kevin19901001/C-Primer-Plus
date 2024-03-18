@@ -15,6 +15,7 @@ int main(void)
 	printf("%s\n", name);
 	printf("%+20s\n", name);
 	printf("%-20s\n", name);
+	printf("%+3s\n", name);
 
 	return 0;
 }
