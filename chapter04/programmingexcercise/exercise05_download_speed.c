@@ -8,5 +8,10 @@
 #include <stdio.h>
 int main(void)
 {
+  float speed;
+  float size;
+
+  printf("Please input speed and size:\n");
+  
   return 0;
 }
