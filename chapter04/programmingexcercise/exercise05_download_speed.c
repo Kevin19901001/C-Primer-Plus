@@ -11,8 +11,14 @@ int main(void)
 {
   float speed;
   float size;
+  float download_time;
 
   printf("Please input speed and size:\n");
+  scanf("%f %f", &speed, &size);
+
+  download_time = size / speed;
+
+  printf("\n");
   
   return 0;
 }
