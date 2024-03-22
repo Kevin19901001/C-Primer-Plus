@@ -18,7 +18,7 @@ int main(void)
 
   download_time = size / speed;
 
-  printf("\n");
+  printf("At %f per second, a file of %f megabytes downloads in %f seconds.\n", speed, size, download_time);
   
   return 0;
 }
