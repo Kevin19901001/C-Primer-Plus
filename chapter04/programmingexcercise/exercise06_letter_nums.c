@@ -9,9 +9,13 @@
 int main(void)
 {
   char first_name;
+  char last_name;
 
   printf("Please enter your first name:\n");
   scanf("%s", &first_name);
+
+  printf("Please enter your last name:\n");
+  scanf("%s", &last_name);
   
   return 0;
 }
