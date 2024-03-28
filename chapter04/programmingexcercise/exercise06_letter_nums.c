@@ -20,6 +20,8 @@ int main(void)
 
   printf("Please enter your last name:\n");
   scanf("%s", &last_name);
+
+  printf("first name: %s, last name: %s\n", first_name, last_name);
   
   return 0;
 }
