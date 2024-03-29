@@ -10,18 +10,26 @@
  * 
  */
 #include <stdio.h>
+#include <string.h>
 int main(void)
 {
-  char first_name;
-  char last_name;
+  char first_name[20];
+  char last_name[20];
 
   printf("Please enter your first name:\n");
-  scanf("%s", &first_name);
+  scanf("%s", first_name);
+
+  int first_name_letters = strlen(first_name);
+  printf("名字的字母数：%d\n", first_name_letters);
 
   printf("Please enter your last name:\n");
-  scanf("%s", &last_name);
+  scanf("%s", last_name);
+
+  int last_name_letters = strlen(last_name);
+  printf("姓氏的字母数：%d\n", last_name_letters);
 
   printf("first name: %s, last name: %s\n", first_name, last_name);
   
   return 0;
 }
+
