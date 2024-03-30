@@ -12,5 +12,8 @@
 #include <stdio.h>
 int main(void)
 {
+  double dbl_vl =1.0/3.0;
+  float flt_vl = 1.0/3.0;
+  
   return 0;
 }
