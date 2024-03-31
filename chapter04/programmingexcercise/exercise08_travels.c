@@ -14,5 +14,16 @@
 #include <stdio.h>
 int main(void)
 {
-  return 0;
+
+	float mileage;
+	float oil_wear;
+
+	printf("Please input mileage and oil wear:\n");
+	scanf("%f %f", &mileage, &oil_wear);
+
+	printf("里程：%4.3f\n", mileage);
+	printf("油耗：%4.3f\n", oil_wear);
+
+	return 0;
 }
+
