@@ -12,9 +12,11 @@
  *
  */
 #include <stdio.h>
+#define OIL_TRANS 3.785
 int main(void)
 {
 
+	const float MILE_TRANS = 1.609;
 	float mileage;
 	float oil_wear;
 
