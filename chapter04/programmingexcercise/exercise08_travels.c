@@ -29,6 +29,9 @@ int main(void)
 	float miles_per_gallon = mileage / oil_wear;
 	printf("每加仑油耗行驶%4.1f英里.", miles_per_gallon);
 
+	float miles_in_klmt = mileage * MILE_TRANS;
+	float oilwear_in_litre = oil_wear * OIL_TRANS;
+
 	return 0;
 }
 
