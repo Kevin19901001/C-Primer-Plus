@@ -10,10 +10,21 @@
  *
  */
 #include <stdio.h>
+#include <float.h>
 int main(void)
 {
-  double dbl_vl =1.0/3.0;
-  float flt_vl = 1.0/3.0;
+	double dbl_vl = 1.0 / 3.0;
+	float flt_vl = 1.0 / 3.0;
   
-  return 0;
+	printf("%1.3f\n", dbl_vl);
+	printf("%1.6f\n", dbl_vl);
+
+	printf("%1.12f\n", flt_vl);
+	printf("%1.16f\n", flt_vl);
+
+	printf("%f\n", FLT_DIG);
+	printf("%f\n", DBL_DIG);
+
+	return 0;
 }
+
