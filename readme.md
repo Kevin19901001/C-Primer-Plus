@@ -1,2 +1,1 @@
-# C primer Plus
-The lesson 《C Primer Plus》. 
+# 课程《C Primer Plus》。
