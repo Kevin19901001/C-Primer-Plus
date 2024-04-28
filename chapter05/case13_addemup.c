@@ -5,3 +5,7 @@
  * Author: FanHuanQing
  * 
  */
+int main (void)
+{
+
+}
